@@ -159,6 +159,15 @@ em {
   border: "";
 }
 
+.best_div > label > ul > li:nth-of-type(2) {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: "";
+  letter-spacing: 0.3px;
+  height: 80px;
+}
+
 .best_div > label > ul:nth-of-type(1) > li:nth-of-type(1) {
   background-image: url("./product/bestproduct1.png");
   background-position: center top;
