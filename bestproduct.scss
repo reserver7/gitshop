@@ -9,7 +9,7 @@
     }
     &>label{
         @include div("",400px,auto,0,1px solid black);
-        display: inline-block;
+        display: inline-block; text-align: center; margin-top: 10px;
         &>ul{
             @include div(100%,400px,auto,0,1px solid black);
             &>li{

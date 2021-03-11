@@ -120,6 +120,8 @@ em {
   padding: 0;
   border: 1px solid black;
   display: inline-block;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .best_div > label > ul {
