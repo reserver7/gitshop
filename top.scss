@@ -53,8 +53,10 @@
     }
 }
 .left_menu{
-    @include position("re");
+    
     float: left;
+    &>li{@include position("re");}
+    &>li::after{@include position("ab"); right: 0;}
     &>li:first-child::after{content: "|";}
     &>li:last-child::after{content: "▼";}
 }
