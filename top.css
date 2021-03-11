@@ -209,4 +209,14 @@ em {
 .right_menu {
   float: right;
 }
+
+.nav {
+  height: auto;
+}
+
+.nav_div {
+  height: 150px;
+  top: 10px;
+  border: 1px solid pink;
+}
 /*# sourceMappingURL=top.css.map */
