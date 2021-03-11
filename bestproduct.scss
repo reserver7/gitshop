@@ -8,7 +8,16 @@
         height: 50px; line-height: 50px; text-align: center;
     }
     &>label{
-        @include div(270px,400px,0,0,"");
+        @include div(270px,400px,0,0,1px solid black);
         display: inline-block;
+        &>ul{
+            @include div(100%,400px,auto,0,1px solid black);
+            &>li{
+                @include div(100%,auto,auto,0,"");
+            }
+            &>li:nth-of-type(1){
+                @include div(100%,auto,auto,0,"");
+            }
+        }
     }
 }
