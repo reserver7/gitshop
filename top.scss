@@ -70,7 +70,7 @@
 }
 .nav_div{
     @include div(1200px,150px,"auto",0,0);
-    margin:10px 0 10px 0;
+    margin-top: 10px;
     border: 1px solid pink;
     &>.logo{
         @include div(100%,30px,0,0,0);
@@ -79,13 +79,14 @@
     }
     &>.search{
         @include div(100%,40px,0,0,0);
+        margin-top: 10px;
         &>span{
             &>input{
                 @include input(600,30,20,1px solid rgb(35, 129, 236),0);
                 @include font("noto","700",12,#333);
             }
             &>button{
-                @include input(80,30,20,1px solid rgb(35, 129, 236),0);
+                @include input(80,30,0,1px solid rgb(35, 129, 236),0);
                 @include bg(0,rgb(35, 129, 236),"");
                 @include font("noto","700",12,#fff);
             }
