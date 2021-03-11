@@ -9,7 +9,7 @@
     @include div(1200px,auto,auto,0,1px solid black);
     @include flex(0,space-around,row,center,"","");
     &>label{
-        @include div(270px,400px,auto,0,1px solid black); 
+        @include div(270px,400px,auto,0,""); 
         text-align: center; margin-top: 10px;
         &>ul{
             @include div(100%,400px,auto,0,"");
@@ -21,15 +21,19 @@
                 @include div(100%,270px,auto,0,"");
             }
             &>li:nth-of-type(2){
-                @include font("noto",500,20,"");
-                height: 80px;
+                @include font("nanum",500,20,"");
+                height: 60px;
             }
             &>li:nth-of-type(3){
-                @include font("noto",500,25,"");
+                @include font("nanum",500,25,"");
                 height: 50px; line-height: 45px;
             }
             &>li:nth-of-type(3):before{
                 content: "쿠팡특가 "; color: red; padding-right: 5px;
+            }
+            &>li:nth-of-type(4){
+                @include font("noto",500,12,"");
+                height: 20px;
             }
         }
     }

@@ -131,7 +131,7 @@ em {
   height: 400px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid black;
+  border: "";
   text-align: center;
   margin-top: 10px;
 }
@@ -174,16 +174,16 @@ em {
 }
 
 .best_div > label > ul > li:nth-of-type(2) {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-weight: 500;
   font-size: 20px;
   color: "";
   letter-spacing: 0.3px;
-  height: 80px;
+  height: 60px;
 }
 
 .best_div > label > ul > li:nth-of-type(3) {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   font-weight: 500;
   font-size: 25px;
   color: "";
@@ -196,6 +196,15 @@ em {
   content: "쿠팡특가 ";
   color: red;
   padding-right: 5px;
+}
+
+.best_div > label > ul > li:nth-of-type(4) {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: "";
+  letter-spacing: 0.3px;
+  height: 20px;
 }
 
 .best_div > label:nth-of-type(1) > ul > li:nth-of-type(1) {
