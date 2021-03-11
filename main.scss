@@ -73,7 +73,6 @@ em{ font-style: normal;}
     color: $fcolor;
 }
 
-
 @mixin flex($flexpart,$just,$direct,$items,$wrap,$content){
     display: flex;
     justify-content: $just;
