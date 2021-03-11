@@ -108,29 +108,6 @@ em {
   margin: 0 auto;
   padding: 0;
   border: 0;
-  width: 1200px;
-  height: 70px;
-  margin: 0 auto;
-  padding: 0;
-  border: 0;
-}
-
-.topbanner_div > li {
-  width: 490px;
-}
-
-.topbanner_div > li > li {
-  width: 490px;
-}
-
-.topbanner_div > li > li > img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.topbanner_div > li > li:last-child {
-  width: 220px;
 }
 
 .topbanner_div > ul {
@@ -143,6 +120,7 @@ em {
 
 .topbanner_div > ul > li {
   width: 490px;
+  height: 70px;
   float: left;
 }
 
@@ -154,5 +132,16 @@ em {
 
 .topbanner_div > ul > li:last-child {
   width: 220px;
+  position: relative;
+}
+
+.topbanner_div > ul > li:last-child > .topbanner_closebtn {
+  position: absolute;
+  width: 50px;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  right: 0;
 }
 /*# sourceMappingURL=top.css.map */

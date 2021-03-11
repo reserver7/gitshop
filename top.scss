@@ -6,24 +6,11 @@
 }
 .topbanner_div{
     @include div(1200px,70px,"auto",0,0);
-    &>li{
-        width: 490px;
-    &>li{
-        width: 490px;
-        &>img{
-            width: 100%;
-            object-fit: cover;
-        }
-    }
-    &>li:last-child{
-        width: 220px;
-    }
-}
-    @include div(1200px,70px,"auto",0,0);
     &>ul{
         @include div(100%,70px,"auto",0,0);
         &>li{
             width: 490px;
+            height: 70px;
             float: left;
             &>img{
                 width: 100%;
@@ -32,6 +19,13 @@
         }
         &>li:last-child{
             width: 220px;
+            @include position("re");
+            &>.topbanner_closebtn{
+                @include position("ab");
+                @include div(50px,70px,0,0,1px solid black);
+                right: 0;
+            }
         }
     }
+
 }
