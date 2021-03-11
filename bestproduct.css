@@ -195,36 +195,6 @@ em {
   line-height: 45px;
 }
 
-.best_div > label > ul > li:nth-of-type(1):before {
-  content: "쿠팡특가";
-  color: red;
-  padding-right: 5px;
-}
-
-.best_div > label > ul > li:nth-of-type(2):before {
-  content: "31%";
-  color: red;
-  padding-right: 5px;
-}
-
-.best_div > label > ul > li:nth-of-type(3):before {
-  content: "쿠팡특가";
-  color: red;
-  padding-right: 5px;
-}
-
-.best_div > label > ul > li:nth-of-type(4):before {
-  content: "15%";
-  color: red;
-  padding-right: 5px;
-}
-
-.best_div > label > ul > li:nth-of-type(3):before {
-  content: "쿠팡특가";
-  color: red;
-  padding-right: 5px;
-}
-
 .best_div > label > ul > li:nth-of-type(4) {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 500;
@@ -266,5 +236,29 @@ em {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.best_div > label:nth-of-type(1) > li:nth-of-type(3):before {
+  content: "쿠팡특가";
+  color: red;
+  padding-right: 5px;
+}
+
+.best_div > label:nth-of-type(2) > li:nth-of-type(3):before {
+  content: "31%";
+  color: red;
+  padding-right: 5px;
+}
+
+.best_div > label:nth-of-type(3) > li:nth-of-type(3):before {
+  content: "쿠팡특가";
+  color: red;
+  padding-right: 5px;
+}
+
+.best_div > label:nth-of-type(4) > li:nth-of-type(3):before {
+  content: "15%";
+  color: red;
+  padding-right: 5px;
 }
 /*# sourceMappingURL=bestproduct.css.map */

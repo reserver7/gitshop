@@ -30,31 +30,6 @@
                 @include font("nanum",700,25,"");
                 height: 50px; line-height: 45px;
             }
-            @for $liea from 1 to 5{
-                @if($liea==1){
-                    &>li:nth-of-type(#{$liea}):before{
-                        content: "쿠팡특가"; color: red; padding-right: 5px;
-                    }
-                }
-                @else if($liea==3){
-                    &>li:nth-of-type(#{$liea}):before{
-                        content: "쿠팡특가"; color: red; padding-right: 5px;
-                    }
-                }
-                @else if($liea==2){
-                    &>li:nth-of-type(#{$liea}):before{
-                        content: "31%"; color: red; padding-right: 5px;
-                    }
-                }
-                @else{
-                    &>li:nth-of-type(#{$liea}):before{
-                        content: "15%"; color: red; padding-right: 5px;
-                    }
-                }
-            }
-            &>li:nth-of-type(3):before{
-                content: "쿠팡특가"; color: red; padding-right: 5px;
-            }
             &>li:nth-of-type(4){
                 @include font("noto",500,12,"");
                 height: 20px;
@@ -67,6 +42,28 @@
     @for $svg from 1 to 5{
         &>label:nth-of-type(#{$svg}) > ul > li:nth-of-type(1){
             @include bg(2,"","./product/bestproduct"+$svg+".png");
+        }
+    }
+    @for $liea from 1 to 5{
+        @if($liea==1){
+            &>label:nth-of-type(#{$liea}) > li:nth-of-type(3):before{
+                content: "쿠팡특가"; color: red; padding-right: 5px;
+            }
+        }
+        @else if($liea==3){
+            &>label:nth-of-type(#{$liea}) > li:nth-of-type(3):before{
+                content: "쿠팡특가"; color: red; padding-right: 5px;
+            }
+        }
+        @else if($liea==2){
+            &>label:nth-of-type(#{$liea}) > li:nth-of-type(3):before{
+                content: "31%"; color: red; padding-right: 5px;
+            }
+        }
+        @else{
+            &>label:nth-of-type(#{$liea}) > li:nth-of-type(3):before{
+                content: "15%"; color: red; padding-right: 5px;
+            }
         }
     }
 }
