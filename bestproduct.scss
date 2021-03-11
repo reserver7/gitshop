@@ -6,7 +6,7 @@
     @include flex(0,space-between,row,center,"","");
     &>span{
         @include font("noto",500,45,"");
-        height: 50px; line-height: 50px; 
+        height: 50px; line-height: 50px; text-align: center;
     }
     &>label{
         @include div(270px,400px,0,0,"");
