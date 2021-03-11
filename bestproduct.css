@@ -116,7 +116,7 @@ em {
 .best_div > label {
   width: 270px;
   height: 400px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   border: 1px solid black;
   display: inline-block;
