@@ -186,10 +186,6 @@ em {
   float: left;
 }
 
-.left_menu > li:after {
-  position: absolute;
-}
-
 .left_menu > li:first-child::after {
   content: "|";
 }
