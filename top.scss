@@ -2,5 +2,8 @@
 @import "main.scss";
 
 .topbanner{
-    @include div(100%,70px,0,0,1px solid black);
+    @include div(100%,70px,0,0,0);
+}
+.topbanner_div{
+    @include div(1200px,70px,"auto",0,1px solid red);
 }
