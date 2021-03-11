@@ -107,8 +107,12 @@ em {
   height: 70px;
   margin: 0 auto;
   padding: 0;
-<<<<<<< HEAD
   border: 1px solid blue;
+  width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
 }
 
 .topbanner_div > li {
@@ -120,8 +124,13 @@ em {
 }
 
 .topbanner_div > li > li > img {
-=======
-  border: 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.topbanner_div > li > li:last-child {
+  width: 220px;
 }
 
 .topbanner_div > ul {
@@ -139,17 +148,12 @@ em {
 }
 
 .topbanner_div > ul > li > img {
->>>>>>> a08815adb2abce1da1fa44fa3d51e58674877b1b
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-<<<<<<< HEAD
-.topbanner_div > li > li:last-child {
-=======
 .topbanner_div > ul > li:last-child {
->>>>>>> a08815adb2abce1da1fa44fa3d51e58674877b1b
   width: 220px;
 }
 /*# sourceMappingURL=top.css.map */
