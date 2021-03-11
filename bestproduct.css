@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* font-family: 'Noto Sans KR', sans-serif; (font-weight 300,500)*/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600;700;900&display=swap");
 /* font-family: 'Nanum Gothic', sans-serif; */
@@ -130,7 +131,7 @@ em {
   height: 400px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid black;
+  border: "";
   text-align: center;
   margin-top: 10px;
 }
@@ -140,7 +141,7 @@ em {
   height: 400px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid black;
+  border: "";
 }
 
 .best_div > label > ul > li {
@@ -148,7 +149,20 @@ em {
   height: auto;
   margin: 0 auto;
   padding: 0;
-  border: "";
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .best_div > label > ul > li:nth-of-type(1) {
@@ -159,28 +173,62 @@ em {
   border: "";
 }
 
-.best_div > label > ul:nth-of-type(1) > li:nth-of-type(1) {
+.best_div > label > ul > li:nth-of-type(2) {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: "";
+  letter-spacing: 0.3px;
+  height: 60px;
+}
+
+.best_div > label > ul > li:nth-of-type(3) {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: "";
+  letter-spacing: 0.3px;
+  height: 50px;
+  line-height: 45px;
+}
+
+.best_div > label > ul > li:nth-of-type(3):before {
+  content: "쿠팡특가 ";
+  color: red;
+  padding-right: 5px;
+}
+
+.best_div > label > ul > li:nth-of-type(4) {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: "";
+  letter-spacing: 0.3px;
+  height: 20px;
+}
+
+.best_div > label:nth-of-type(1) > ul > li:nth-of-type(1) {
   background-image: url("./product/bestproduct1.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-.best_div > label > ul:nth-of-type(2) > li:nth-of-type(1) {
+.best_div > label:nth-of-type(2) > ul > li:nth-of-type(1) {
   background-image: url("./product/bestproduct2.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-.best_div > label > ul:nth-of-type(3) > li:nth-of-type(1) {
+.best_div > label:nth-of-type(3) > ul > li:nth-of-type(1) {
   background-image: url("./product/bestproduct3.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-.best_div > label > ul:nth-of-type(4) > li:nth-of-type(1) {
+.best_div > label:nth-of-type(4) > ul > li:nth-of-type(1) {
   background-image: url("./product/bestproduct4.png");
   background-position: center top;
   background-repeat: no-repeat;
