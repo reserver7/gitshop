@@ -6,7 +6,7 @@
 }
 .topbanner_div{
     @include div(1200px,70px,"auto",0,0);
-    &ul{
+    &>ul{
         @include div(100%,70px,"auto",0,1px solid blue);
         float: left;
         &>li{
