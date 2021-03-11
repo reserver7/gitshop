@@ -182,8 +182,8 @@ em {
 }
 
 .left_menu {
-  left: 0;
   position: relative;
+  float: left;
 }
 
 .left_menu > li:after {
@@ -200,6 +200,6 @@ em {
 }
 
 .right_menu {
-  right: 0;
+  float: right;
 }
 /*# sourceMappingURL=top.css.map */
