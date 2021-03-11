@@ -79,14 +79,16 @@
     }
     &>.search{
         @include div(100%,40px,0,0,0);
-        &>input{
-            @include input(600,30,20,1px solid rgb(35, 129, 236),0);
-            @include font("noto","700",12,#333);
-        }
-        &>button{
-            @include input(80,30,20,1px solid rgb(35, 129, 236),0);
-            @include bg(0,rgb(35, 129, 236),"");
-            @include font("noto","700",12,#fff);
+        &>span{
+            &>input{
+                @include input(600,30,20,1px solid rgb(35, 129, 236),0);
+                @include font("noto","700",12,#333);
+            }
+            &>button{
+                @include input(80,30,20,1px solid rgb(35, 129, 236),0);
+                @include bg(0,rgb(35, 129, 236),"");
+                @include font("noto","700",12,#fff);
+            }
         }
     }
 }

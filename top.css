@@ -242,7 +242,7 @@ em {
   border: 0;
 }
 
-.nav_div > .search > input {
+.nav_div > .search > span > input {
   width: 600px;
   height: 30px;
   text-indent: 20px;
@@ -259,7 +259,7 @@ em {
   letter-spacing: 0.3px;
 }
 
-.nav_div > .search > button {
+.nav_div > .search > span > button {
   width: 80px;
   height: 30px;
   text-indent: 20px;
