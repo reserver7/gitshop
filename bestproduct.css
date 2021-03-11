@@ -93,4 +93,9 @@ pre {
 em {
   font-style: normal;
 }
+
+.best_div {
+  background-color: red;
+  width: 100px;
+}
 /*# sourceMappingURL=bestproduct.css.map */
