@@ -3,12 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600;700;900&display=swap');
 /* font-family: 'Nanum Gothic', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
-/* font-family: 'Nanum Pen Script', cursive; (400)*/
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-/* font-family: 'Big Shoulders Stencil Display', cursive; (100,300,400,500,600,700,800,900) */
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&display=swap');
-/* font-family: 'Do Hyeon', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 /* font-family: 'Open Sans', sans-serif*/
 html,body,div,span,label,section,aside,footer,header,nav,video,table,tr,td,th{
@@ -73,9 +67,6 @@ em{ font-style: normal;}
     }
     @else if($family=="open"){
         font-family: 'Open Sans', sans-serif;
-    }
-    @else if($family=="do"){
-        font-family: 'Do Hyeon', sans-serif;
     }
     font-weight: $fweight;
     font-size: $fsize;
