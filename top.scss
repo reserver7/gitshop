@@ -84,11 +84,15 @@
             &>input{
                 @include input(600,30,20,1px solid rgb(35, 129, 236),0);
                 @include font("noto","700",12,#333);
+                margin: 0;
+                padding: 0;
             }
             &>button{
-                @include input(80,30,0,1px solid rgb(35, 129, 236),0);
+                @include input(80,30,0,2px solid rgb(35, 129, 236),0);
                 @include bg(0,rgb(35, 129, 236),"");
                 @include font("noto","700",12,#fff);
+                margin: 0;
+                padding: 0;
             }
         }
     }
