@@ -25,6 +25,7 @@ body {
   line-height: 1;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   text-size-adjust: none;
 }
 
@@ -35,7 +36,8 @@ ol, ul, dd {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 input:focus {
@@ -90,4 +92,5 @@ pre {
 
 em {
   font-style: normal;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
