@@ -2,5 +2,5 @@ let menu=["카테고리","로켓배송","로켓프레시","2020추석","로켓�
 
 var html;
 menu.forEach(function(mkey,mnode){
-    document.getElementById("menu_ul").innerHTML+="<li>"+mkey+"</li>";
+    document.getElementById("main_ul").innerHTML+="<li>"+mkey+"</li>";
 });
