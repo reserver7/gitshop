@@ -221,7 +221,6 @@ em {
   padding: 0;
   border: 0;
   margin-top: 10px;
-  border: 1px solid pink;
 }
 
 .nav_div > .logo {
@@ -294,7 +293,7 @@ em {
   border: 0;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: "700";
-  font-size: 20px;
+  font-size: 18px;
   color: #fff;
   letter-spacing: 0.3px;
 }
@@ -310,5 +309,6 @@ em {
   text-align: center;
   line-height: 40px;
   float: left;
+  cursor: pointer;
 }
 /*# sourceMappingURL=top.css.map */
