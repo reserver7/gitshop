@@ -182,8 +182,16 @@ em {
 }
 
 .left_menu {
-  position: relative;
   float: left;
+}
+
+.left_menu > li {
+  position: relative;
+}
+
+.left_menu > li::after {
+  position: absolute;
+  right: 0;
 }
 
 .left_menu > li:first-child::after {
