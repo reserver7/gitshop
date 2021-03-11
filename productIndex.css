@@ -1,2 +1,101 @@
+/* font-family: 'Noto Sans KR', sans-serif; (font-weight 300,500)*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600;700;900&display=swap");
+/* font-family: 'Nanum Gothic', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+/* font-family: 'Open Sans', sans-serif*/
+html, body, div, span, label, section, aside, footer, header, nav, video, table, tr, td, th {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
 
-/*# sourceMappingURL=productIndex.css.map *//*# sourceMappingURL=productIndex.css.map */
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #333;
+}
+
+section, aside, footer, header, nav, main, span, label {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+ol, ul, dd {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+}
+
+legend {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1, h2, h3, h4, h5, h6, form, fieldset, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+pre {
+  overflow-x: scroll;
+  font-size: 1;
+}
+
+em {
+  font-style: normal;
+}
+
+.banner {
+  width: 1200px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}/*# sourceMappingURL=productIndex.css.map */
