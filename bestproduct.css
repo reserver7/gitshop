@@ -295,6 +295,11 @@ em {
   margin: 0 auto;
   padding: 0;
   border: "";
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.3px;
   line-height: 50px;
 }
 /*# sourceMappingURL=bestproduct.css.map */
