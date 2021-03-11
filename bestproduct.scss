@@ -26,11 +26,10 @@
             }
             &>li:nth-of-type(3){
                 @include font("noto",500,25,"");
-                height: 50px;
+                height: 50px; line-height: 45px;
             }
             &>li:nth-of-type(3):before{
-                content: "쿠팡특가";
-                display: inline-block;
+                content: "쿠팡특가 "; color: red; padding-right: 5px;
             }
         }
     }

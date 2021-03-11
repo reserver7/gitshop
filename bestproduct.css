@@ -189,11 +189,13 @@ em {
   color: "";
   letter-spacing: 0.3px;
   height: 50px;
+  line-height: 45px;
 }
 
 .best_div > label > ul > li:nth-of-type(3):before {
-  content: "쿠팡특가";
-  display: inline-block;
+  content: "쿠팡특가 ";
+  color: red;
+  padding-right: 5px;
 }
 
 .best_div > label:nth-of-type(1) > ul > li:nth-of-type(1) {
