@@ -6,8 +6,9 @@
     height: 50px; line-height: 50px; text-align: center;
 }
 .best_div{
-    @include div(1200px,auto,auto,0,1px solid black);
+    @include div(1200px,auto,auto,0,"");
     @include flex(0,space-around,row,center,"","");
+    margin-top: 10px;
     &>label{
         @include div(270px,400px,auto,0,""); 
         text-align: center; margin-top: 10px;
@@ -29,11 +30,14 @@
                 height: 50px; line-height: 45px;
             }
             &>li:nth-of-type(3):before{
-                content: "쿠팡특가 "; color: red; padding-right: 5px;
+                content: "쿠팡특가"; color: red; padding-right: 5px;
             }
             &>li:nth-of-type(4){
                 @include font("noto",500,12,"");
                 height: 20px;
+            }
+            &>li:nth-of-type(4):before{
+                content: "최대 2.3% 적립"; color: blue; padding-right: 5px;
             }
         }
     }
