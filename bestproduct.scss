@@ -67,3 +67,13 @@
         }
     }
 }
+.footer{
+    @include div(100%,auto,auto,0,"");
+    @include bg(0,#000,"");
+}
+.footer_div{
+    @include div(1200px,auto,auto,0,"");
+    &>ol{
+        @include div(1200px,auto,auto,0,"");
+    }
+}
