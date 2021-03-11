@@ -111,7 +111,7 @@ em{ font-style: normal;}
 
 @mixin bg($ap,$bgcolor,$bgurl){
     @if($ap==0){
-        background-color: rgba+ $bgcolor;
+        background-color:$bgcolor;
     }
     @else if($ap==1){
         background-color: $bgcolor;

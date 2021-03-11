@@ -95,11 +95,7 @@ em {
 }
 
 .topbanner {
-  width: 100%;
   height: auto;
-  margin: 0;
-  padding: 0;
-  border: 0;
 }
 
 .topbanner_div {
@@ -151,5 +147,18 @@ em {
   cursor: pointer;
   text-align: center;
   line-height: 70px;
+}
+
+.top {
+  height: auto;
+}
+
+.top_menu {
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background-color: #ccc;
 }
 /*# sourceMappingURL=top.css.map */
