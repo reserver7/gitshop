@@ -286,5 +286,15 @@ em {
   margin: 0 auto;
   padding: 0;
   border: "";
+  text-align: center;
+}
+
+.footer_div > ol > li {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0;
+  border: "";
+  line-height: 50px;
 }
 /*# sourceMappingURL=bestproduct.css.map */

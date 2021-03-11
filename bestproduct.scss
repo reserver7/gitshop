@@ -74,6 +74,10 @@
 .footer_div{
     @include div(1200px,auto,auto,0,"");
     &>ol{
-        @include div(1200px,auto,auto,0,"");
+        @include div(1200px,auto,auto,0,""); text-align: center;
+        &>li{
+            @include div(1200px,50px,auto,0,"");
+            line-height: 50px;
+        }
     }
 }
