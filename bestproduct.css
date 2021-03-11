@@ -153,9 +153,16 @@ em {
 
 .best_div > label > ul > li:nth-of-type(1) {
   width: 100%;
-  height: auto;
+  height: 270px;
   margin: 0 auto;
   padding: 0;
   border: "";
+}
+
+.best_div > label > ul:nth-of-type(1) > li:nth-of-type(1) {
+  background-image: url("./product/bestproduct1.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 /*# sourceMappingURL=bestproduct.css.map */
