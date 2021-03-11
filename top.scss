@@ -8,12 +8,12 @@
     @include div(1200px,70px,"auto",0,0);
     &>ul{
         @include div(100%,70px,"auto",0,1px solid blue);
-        float: left;
         &>li{
             width: 490px;
             border: 1px solid black;
+            float: left;
             &>img{
-                width: 490px;
+                width: 100%;
                 object-fit: cover;
             }
         }

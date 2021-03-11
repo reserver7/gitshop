@@ -96,7 +96,7 @@ em {
 
 .topbanner {
   width: 100%;
-  height: 70px;
+  height: auto;
   margin: 0;
   padding: 0;
   border: 0;
@@ -116,16 +116,16 @@ em {
   margin: 0 auto;
   padding: 0;
   border: 1px solid blue;
-  float: left;
 }
 
 .topbanner_div > ul > li {
   width: 490px;
   border: 1px solid black;
+  float: left;
 }
 
 .topbanner_div > ul > li > img {
-  width: 490px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
