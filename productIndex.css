@@ -99,4 +99,10 @@ em {
   padding: 0;
   border: 0;
   border: 1px solid red;
+}
+
+.div {
+  width: 100px;
+  height: 30px;
+  border: 1px solid red;
 }/*# sourceMappingURL=productIndex.css.map */
