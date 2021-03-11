@@ -125,7 +125,7 @@ em {
 }
 
 .topbanner_div > ul > li > img {
-  width: 100%;
+  width: 490px;
   -o-object-fit: cover;
      object-fit: cover;
 }
