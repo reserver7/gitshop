@@ -6,4 +6,10 @@
 }
 .topbanner_div{
     @include div(1200px,70px,"auto",0,1px solid blue);
+    &>li{
+        width: 490px;
+    }
+    &>li:last-child{
+        width: 220px;
+    }
 }
