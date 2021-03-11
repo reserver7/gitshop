@@ -46,22 +46,22 @@
     }
     @for $liea from 1 to 5{
         @if($liea==1){
-            &>label:nth-of-type(#{$liea}) > li:nth-of-type(3):before{
+            &>label:nth-of-type(#{$liea}) > ul > li:nth-of-type(3):before{
                 content: "쿠팡특가"; color: red; padding-right: 5px;
             }
         }
         @else if($liea==3){
-            &>label:nth-of-type(#{$liea}) > li:nth-of-type(3):before{
+            &>label:nth-of-type(#{$liea}) > ul  > li:nth-of-type(3):before{
                 content: "쿠팡특가"; color: red; padding-right: 5px;
             }
         }
         @else if($liea==2){
-            &>label:nth-of-type(#{$liea}) > li:nth-of-type(3):before{
+            &>label:nth-of-type(#{$liea}) > ul  > li:nth-of-type(3):before{
                 content: "31%"; color: red; padding-right: 5px;
             }
         }
         @else{
-            &>label:nth-of-type(#{$liea}) > li:nth-of-type(3):before{
+            &>label:nth-of-type(#{$liea}) > ul  > li:nth-of-type(3):before{
                 content: "15%"; color: red; padding-right: 5px;
             }
         }
