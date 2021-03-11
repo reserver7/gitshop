@@ -2,5 +2,5 @@
 @import "main.scss";
 
 .best_div{
-    @include div(1200px,auto,auto,0,1px solid black);
+    @include div(1200px,300px,auto,0,1px solid black);
 }
