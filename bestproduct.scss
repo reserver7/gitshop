@@ -15,7 +15,7 @@
             @include div(100%,400px,auto,0,"");
             &>li{
                 @include div(100%,auto,auto,0,1px solid black);
-                @include flex(0,"",row,center,"","");
+                @include flex(0,center,row,center,"","");
             }
             &>li:nth-of-type(1){
                 @include div(100%,270px,auto,0,"");
