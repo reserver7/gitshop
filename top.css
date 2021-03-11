@@ -108,5 +108,16 @@ em {
   margin: 0 auto;
   padding: 0;
   border: 1px solid blue;
+<<<<<<< HEAD
+=======
+}
+
+.topbanner_div > li {
+  width: 490px;
+}
+
+.topbanner_div > li:last-child {
+  width: 220px;
+>>>>>>> 7b33a5f1945b01f68084df8d4154c4c7a61c4b54
 }
 /*# sourceMappingURL=top.css.map */
