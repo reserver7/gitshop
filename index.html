@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<?
-    $v=date("YmdHis");
-?>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>shop</title>
-<link rel="stylesheet" type="text/css" href="./top.css">
-<link rel="stylesheet" type="text/css" href="./bestproduct.css">
+<link rel="stylesheet" type="text/css" href="./bestproduct.css?v=6">
 <link rel="stylesheet" type="text/css" href="./productIndex.css">
-<link rel="stylesheet" type="text/css" href="./top.css?v=<? echo $v; ?>">
+<link rel="stylesheet" type="text/css" href="./top.css?v=18">
 <script src="./jquery.js"></script>
 <script src="./vue.js"></script>
 
@@ -19,7 +15,13 @@
 <body>
     <!-- 탑배너 -->
     <section class="topbanner" id="topbanner">
-        <?php include "topbanner.html"; ?>    
+        <div class="topbanner_div">
+            <ul>
+                <li><img src="./image/topbanner1.jpg"></li>
+                <li><img src="./image/topbanner2.jpg"></li>
+                <li><span class="topbanner_closebtn">X</span></li>
+            </ul>
+        </div>
     </section>
     
         <!-- 최상단 메뉴부분 -->
@@ -46,7 +48,44 @@
                 </article>
                 <!-- 인기상품 -->
                 <article>
-                    <?php include "bestproduct.html"; ?> 
+                    <?php include "bestproduct.html"; ?>
+                    <div class="best_div">
+                        <span>
+                            [Best Product]
+                        </span>
+                        <label>
+                            <ul>
+                                <li></li>
+                                <li>오뚜기 컵누들 1박스 작은컵/큰컵</li>
+                                <li>10,900원</li>
+                                <li>| 무료배송</li>
+                            </ul>
+                        </label>
+                        <label>
+                            <ul>
+                                <li></li>
+                                <li>잘풀리는집 순수 천연펄프 25m 30롤 / 3팩</li>
+                                <li>31,900원</li>
+                                <li>| 무료배송</li>
+                            </ul>
+                        </label>
+                        <label>
+                            <ul>
+                                <li></li>
+                                <li>정관장 활기력 20ml / 16병 2박스</li>
+                                <li>68,000원</li>
+                                <li>| 무료배송</li>
+                            </ul>
+                        </label>
+                        <label>
+                            <ul>
+                                <li></li>
+                                <li>일렉트로룩스 에르고라피도 18V 무선청소기</li>
+                                <li>184,000원</li>
+                                <li>| 무료배송</li>
+                            </ul>
+                        </label>
+                    </div> 
                 </article>
             </section>
         </main>

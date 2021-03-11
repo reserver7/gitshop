@@ -96,7 +96,7 @@ em {
 
 .topbanner {
   width: 100%;
-  height: 70px;
+  height: auto;
   margin: 0;
   padding: 0;
   border: 0;
@@ -107,6 +107,41 @@ em {
   height: 70px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid red;
+  border: 0;
+}
+
+.topbanner_div > ul {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+.topbanner_div > ul > li {
+  width: 490px;
+  height: 70px;
+  float: left;
+}
+
+.topbanner_div > ul > li > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.topbanner_div > ul > li:last-child {
+  width: 220px;
+  position: relative;
+}
+
+.topbanner_div > ul > li:last-child > .topbanner_closebtn {
+  position: absolute;
+  width: 50px;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  right: 0;
 }
 /*# sourceMappingURL=top.css.map */
