@@ -12,9 +12,9 @@
         @include div(270px,400px,auto,0,1px solid black); 
         text-align: center; margin-top: 10px;
         &>ul{
-            @include div(100%,400px,auto,0,1px solid black);
+            @include div(100%,400px,auto,0,"");
             &>li{
-                @include div(100%,auto,auto,0,"");
+                @include div(100%,auto,auto,0,1px solid black);
             }
             &>li:nth-of-type(1){
                 @include div(100%,270px,auto,0,"");
