@@ -94,21 +94,8 @@ em {
   font-style: normal;
 }
 
-.banner {
-  width: 1200px;
-  height: 500px;
-  margin: 0 auto;
-  padding: 0;
-  border: 0;
-  border: 1px solid red;
-}
-<<<<<<< HEAD
-
-.div {
+.best_div {
+  background-color: red;
   width: 100px;
-  height: 30px;
-  border: 1px solid red;
-}/*# sourceMappingURL=productIndex.css.map */
-=======
-/*# sourceMappingURL=productIndex.css.map */
->>>>>>> 47c81fde814b6f46c5ec52ba55e14b22a774a406
+}
+/*# sourceMappingURL=bestproduct.css.map */
