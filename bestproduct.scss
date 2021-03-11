@@ -9,8 +9,8 @@
     @include div(1200px,auto,auto,0,1px solid black);
     @include flex(0,space-around,row,center,"","");
     &>label{
-        @include div(270px,400px,auto,0,1px solid black);
-        display: inline-block; text-align: center; margin-top: 10px;
+        @include div(270px,400px,auto,0,1px solid black); 
+        text-align: center; margin-top: 10px;
         &>ul{
             @include div(100%,400px,auto,0,1px solid black);
             &>li{
