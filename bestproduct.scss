@@ -2,5 +2,5 @@
 @import "main.scss";
 
 .best_div{
-    background-color: red; width: 100px;
+    @include div(1200px,300px,auto,0,1px solid black);
 }
