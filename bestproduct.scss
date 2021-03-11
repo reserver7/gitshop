@@ -23,11 +23,11 @@
                 @include div(100%,270px,auto,0,"");
             }
             &>li:nth-of-type(2){
-                @include font("nanum",500,20,"");
+                @include font("nanum",700,20,"");
                 height: 60px;
             }
             &>li:nth-of-type(3){
-                @include font("nanum",500,25,"");
+                @include font("nanum",700,25,"");
                 height: 50px; line-height: 45px;
             }
             &>li:nth-of-type(3):before{
