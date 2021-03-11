@@ -4,6 +4,7 @@
 .best_top{
     @include font("noto",500,45,"");
     height: 50px; line-height: 50px; text-align: center;
+    margin-top: 10px;
 }
 .best_div{
     @include div(1200px,auto,auto,0,"");
