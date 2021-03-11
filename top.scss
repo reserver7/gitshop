@@ -21,6 +21,7 @@
             @include position("re");
             &>.topbanner_closebtn{
                 @include position("ab");
+                @include div(50px,70px,0,0,1px solid black);
                 right: 0;
             }
         }
