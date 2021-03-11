@@ -2,5 +2,10 @@
 @import "main.scss";
 
 .best_div{
-    @include div(1200px,300px,auto,0,1px solid black);
+    @include div(1200px,auto,auto,0,1px solid black);
+    @include flex(0,center,row,center,"","");
+    &>span{
+        @include font("noto",500,45,"");
+        height: 50px; line-height: 50px; 
+    }
 }
