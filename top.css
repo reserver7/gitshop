@@ -107,20 +107,30 @@ em {
   height: 70px;
   margin: 0 auto;
   padding: 0;
+  border: 0;
+}
+
+.topbanner_divul {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0;
   border: 1px solid blue;
+  float: left;
 }
 
-.topbanner_div > li {
+.topbanner_divul > li {
   width: 490px;
+  border: 1px solid black;
 }
 
-.topbanner_div > li > img {
+.topbanner_divul > li > img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.topbanner_div > li:last-child {
+.topbanner_divul > li:last-child {
   width: 220px;
 }
 /*# sourceMappingURL=top.css.map */
