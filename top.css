@@ -114,6 +114,12 @@ em {
   width: 490px;
 }
 
+.topbanner_div > li > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .topbanner_div > li:last-child {
   width: 220px;
 }

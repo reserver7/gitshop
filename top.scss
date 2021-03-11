@@ -8,6 +8,10 @@
     @include div(1200px,70px,"auto",0,1px solid blue);
     &>li{
         width: 490px;
+        &>img{
+            width: 100%;
+            object-fit: cover;
+        }
     }
     &>li:last-child{
         width: 220px;
