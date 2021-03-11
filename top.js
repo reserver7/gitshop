@@ -4,5 +4,5 @@ var menu_id=document.getElementById("main_ul");
 var menu_html;
 menu.forEach(function(mkey,mnode){
     menu_html="<li></li>";
-    menu_id.innerHTML += menu_html;
+    menu_id.innerHTML = menu_html;
 });
