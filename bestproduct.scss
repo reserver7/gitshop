@@ -21,11 +21,12 @@
             }
             &>li:nth-of-type(2){
                 @include font("noto",500,20,"");
-                height: 80px; vertical-align: middle;
+                @include flex(0,"",row,center,"","");
+                height: 80px;
             }
             &>li:nth-of-type(3){
                 @include font("noto",500,25,"");
-                height: 50px; vertical-align: middle;
+                height: 50px;
             }
             &>li:nth-of-type(3)::before{
                 content: "쿠팡특가";
