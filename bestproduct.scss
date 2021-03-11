@@ -1,12 +1,12 @@
 @charset "UTF-8";
 @import "main.scss";
 
+.best_top{
+    @include font("noto",500,45,"");
+    height: 50px; line-height: 50px; text-align: center;
+}
 .best_div{
     @include div(1200px,auto,auto,0,1px solid black);
-    &>span{
-        @include font("noto",500,45,"");
-        height: 50px; line-height: 50px; text-align: center;
-    }
     &>label{
         @include div("",400px,auto,0,1px solid black);
         display: inline-block; text-align: center; margin-top: 10px;

@@ -94,15 +94,7 @@ em {
   font-style: normal;
 }
 
-.best_div {
-  width: 1200px;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  border: 1px solid black;
-}
-
-.best_div > span {
+.best_top {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 500;
   font-size: 45px;
@@ -111,6 +103,14 @@ em {
   height: 50px;
   line-height: 50px;
   text-align: center;
+}
+
+.best_div {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid black;
 }
 
 .best_div > label {
