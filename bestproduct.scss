@@ -9,7 +9,7 @@
 .best_div{
     @include div(1200px,auto,auto,0,"");
     @include flex(0,space-around,row,center,"","");
-    margin-top: 10px;
+    margin-top: 10px; padding-bottom: 10px;
     &>label{
         @include div(270px,400px,auto,0,1px solid black); 
         text-align: center; margin-top: 10px; cursor: pointer;
