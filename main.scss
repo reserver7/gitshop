@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* font-family: 'Noto Sans KR', sans-serif; (font-weight 300,500)*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600;700;900&display=swap');
+/* font-family: 'Nanum Gothic', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Pen Script', cursive; (400)*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+/* font-family: 'Big Shoulders Stencil Display', cursive; (100,300,400,500,600,700,800,900) */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Do Hyeon', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* font-family: 'Open Sans', sans-serif*/
+html,body,div,span,label,section,aside,footer,header,nav,video,table,tr,td,th{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font:inherit;
+}
+a:link,a:visited,a:hover,a:active{ text-decoration: none; color: #333; }
+section,aside,footer,header,nav,main,span,label{
+    display: block;
+}
+body{
+    line-height: 1; 
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none;
+}
+ol,ul,dd{
+    list-style: none; margin: 0; padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+input:focus{outline: none;}
+button{cursor: pointer;}
+button:focus{outline: none;}
+select:focus{outline: none;}
+p{ margin: 0; padding: 0; word-break: break-all;}
+legend{position: absolute; margin: 0; padding: 0; font-size: 0; line-height: 0; text-indent: -9999px; overflow: hidden;}
+img{ width: 100%; height: auto; object-fit: cover;}
+h1,h2,h3,h4,h5,h6,form,fieldset,img{margin: 0; padding: 0; border: 0;}
+pre{overflow-x: scroll; font-size: 1;}
+em{ font-style: normal;}
+
+@mixin font($family,$fweight,$fsize,$fcolor){
+    @if($family=="noto"){
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    @else if($family=="nanum"){
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    @else if($family=="open"){
+        font-family: 'Open Sans', sans-serif;
+    }
+    @else if($family=="do"){
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    font-weight: $fweight;
+    font-size: $fsize+px;
+    color: $fcolor;
+    letter-spacing: 0.3px;
+}
+@mixin mfont($family,$fweight,$fsize,$fcolor){
+    @if($family=="noto"){
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    @else if($family=="nanum"){
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+    @else if($family=="open"){
+        font-family: 'Open Sans', sans-serif;
+    }
+    @else if($family=="do"){
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    font-weight: $fweight;
+    font-size: $fsize;
+    color: $fcolor;
+}
+
+
+@mixin flex($flexpart,$just,$direct,$items,$wrap,$content){
+    display: flex;
+    justify-content: $just;
+    flex-direction: $direct;
+    align-items: $items;
+    @if($flexpart==1){
+        flex-wrap: $wrap;
+        align-content: $content;
+    }
+}
+
+@mixin div($div_width,$div_height,$div_margin,$div_padding,$div_border){
+    width: $div_width;
+    height: $div_height;
+    @if($div_margin=="auto"){
+      margin: 0 auto;  
+    }
+    @else{
+        margin:$div_margin;
+    }
+    padding: $div_padding;
+    border: $div_border;
+}
+
+@mixin position($ps){
+    @if($ps=="ab"){
+        position: absolute;
+    }
+    @else if($ps=="re"){
+        position: relative;
+    }
+    @else if($ps=="fix"){
+        position: fixed;
+    }
+}
+
+@mixin bg($ap,$bgcolor,$bgurl){
+    @if($ap==0){
+        background-color: rgba+ $bgcolor;
+    }
+    @else if($ap==1){
+        background-color: $bgcolor;
+    }
+    @else if($ap==2){
+        background-image:url($bgurl);
+        background-position: center top ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+@mixin input($input_width,$input_height,$input_indent,$input_border,$input_cursor){
+    width: $input_width+px;
+    height: $input_height+px;
+    text-indent:$input_indent+px;
+    border: $input_border;
+    letter-spacing: 0.3px;
+    box-sizing: border-box;
+    border-radius: 0;
+    padding: 0;
+    @if($input_cursor==1){
+        cursor: pointer;
+    }
+}
+
+
