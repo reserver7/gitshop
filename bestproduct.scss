@@ -77,6 +77,7 @@
         @include div(1200px,auto,auto,0,""); text-align: center;
         &>li{
             @include div(1200px,50px,auto,0,"");
+            @include font("open",600,16,#fff);
             line-height: 50px;
         }
     }
