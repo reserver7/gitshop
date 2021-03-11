@@ -5,6 +5,7 @@
     @include div(100%,70px,0,0,0);
 }
 .topbanner_div{
+<<<<<<< HEAD
     @include div(1200px,70px,"auto",0,1px solid blue);
     &>li{
         width: 490px;
@@ -19,4 +20,23 @@
         width: 220px;
     }
 }
+=======
+    @include div(1200px,70px,"auto",0,0);
+    &>ul{
+        @include div(100%,70px,"auto",0,1px solid blue);
+        float: left;
+        &>li{
+            width: 490px;
+            border: 1px solid black;
+            &>img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &>li:last-child{
+            width: 220px;
+        }
+    }
+
+>>>>>>> a08815adb2abce1da1fa44fa3d51e58674877b1b
 }

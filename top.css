@@ -107,6 +107,7 @@ em {
   height: 70px;
   margin: 0 auto;
   padding: 0;
+<<<<<<< HEAD
   border: 1px solid blue;
 }
 
@@ -119,12 +120,36 @@ em {
 }
 
 .topbanner_div > li > li > img {
+=======
+  border: 0;
+}
+
+.topbanner_div > ul {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid blue;
+  float: left;
+}
+
+.topbanner_div > ul > li {
+  width: 490px;
+  border: 1px solid black;
+}
+
+.topbanner_div > ul > li > img {
+>>>>>>> a08815adb2abce1da1fa44fa3d51e58674877b1b
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
+<<<<<<< HEAD
 .topbanner_div > li > li:last-child {
+=======
+.topbanner_div > ul > li:last-child {
+>>>>>>> a08815adb2abce1da1fa44fa3d51e58674877b1b
   width: 220px;
 }
 /*# sourceMappingURL=top.css.map */
