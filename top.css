@@ -107,7 +107,7 @@ em {
   height: 70px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid blue;
+  border: 0;
   width: 1200px;
   height: 70px;
   margin: 0 auto;
@@ -138,12 +138,11 @@ em {
   height: 70px;
   margin: 0 auto;
   padding: 0;
-  border: 1px solid blue;
+  border: 0;
 }
 
 .topbanner_div > ul > li {
   width: 490px;
-  border: 1px solid black;
   float: left;
 }
 
