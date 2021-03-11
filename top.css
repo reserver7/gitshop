@@ -285,4 +285,29 @@ em {
   margin-left: -6px;
   padding: 0;
 }
+
+.nav_div > .main_menu {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: "700";
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 0.3px;
+}
+
+.nav_div > .main_menu > ul {
+  height: auto;
+}
+
+.nav_div > .main_menu > ul > li {
+  width: 120px;
+  height: 40px;
+  background-color: #2381ec;
+  text-align: center;
+  line-height: 40px;
+}
 /*# sourceMappingURL=top.css.map */
