@@ -141,7 +141,15 @@ em {
   height: 70px;
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
   right: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 70px;
 }
 /*# sourceMappingURL=top.css.map */

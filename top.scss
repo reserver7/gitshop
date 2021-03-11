@@ -22,8 +22,12 @@
             @include position("re");
             &>.topbanner_closebtn{
                 @include position("ab");
-                @include div(50px,70px,0,0,1px solid black);
+                @include div(50px,70px,0,0,0);
                 right: 0;
+                @include font("noto",700,30,black);
+                cursor: pointer;
+                text-align: center;
+                line-height: 70px;
             }
         }
     }
