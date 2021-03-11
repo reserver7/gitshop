@@ -55,7 +55,7 @@
 .left_menu{
     @include position("re");
     float: left;
-    &>li:after{@include position("ab"); right: 0;}
+    &>li:after{@include position("ab");}
     &>li:first-child::after{content: "|";}
     &>li:last-child::after{content: "▼";}
 }
