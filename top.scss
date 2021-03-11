@@ -10,6 +10,7 @@
         @include div(100%,70px,"auto",0,0);
         &>li{
             width: 490px;
+            height: 70px;
             float: left;
             &>img{
                 width: 100%;
