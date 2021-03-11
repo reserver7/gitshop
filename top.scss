@@ -24,7 +24,7 @@
                 @include position("ab");
                 @include div(50px,70px,0,0,0);
                 right: 0;
-                @include font("noto",700,30,black);
+                @include font("noto",700,30,#333);
                 cursor: pointer;
                 text-align: center;
                 line-height: 70px;
@@ -40,4 +40,26 @@
 .top_menu{
     @include div(100%,30px,"auto",0,0);
     @include bg(0,#ccc,"");
+    @include font("noto","700",12,#333);
+    @include position("re");
+}
+.topmenu{
+    &>li{
+        @include div(80px,30px,0,0,1px solid red);
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+        float: left;
+        @include position("ab");
+    }
+}
+.left_menu{
+    left: 0;
+    @include position("re");
+    &>li:after{@include position("ab"); right: 0;}
+    &>li:first-child::after{content: "|";}
+    &>li:last-child::after{content: "▼";}
+}
+.right_menu{
+    right: 0;
 }
