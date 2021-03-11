@@ -25,6 +25,7 @@ body {
   line-height: 1;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   text-size-adjust: none;
 }
 
@@ -35,7 +36,8 @@ ol, ul, dd {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 input:focus {
@@ -105,4 +107,5 @@ em {
   width: 100px;
   height: 30px;
   border: 1px solid red;
-}/*# sourceMappingURL=productIndex.css.map */
+}
+/*# sourceMappingURL=productIndex.css.map */

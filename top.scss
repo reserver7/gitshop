@@ -2,7 +2,7 @@
 @import "main.scss";
 
 .topbanner{
-    @include div(100%,auto,0,0,0);
+    height: auto;
 }
 .topbanner_div{
     @include div(1200px,70px,"auto",0,0);
@@ -32,4 +32,12 @@
         }
     }
 
+}
+
+.top{
+    height: auto;
+}
+.top_manu{
+    @include div(100%,30px,"auto",0,0);
+    @include bg(0,#ccc,"");
 }
