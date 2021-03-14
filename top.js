@@ -5,9 +5,10 @@ $(function(){
     var $w=0;
     var $ea=$menu.length;
     while($w<$ea){
-        ("#main_ul").append("<li>"+$menu[$w]+"</li> ");
+        $("#main_ul").append("<li>"+$menu[$w]+"</li> ");
         $w++;
     }
+
 });
 function closebtn(){
     document.getElementById("topbanner").style.display="none";
