@@ -6,7 +6,7 @@
 .mainoutline{
     &>article{ width:1200px;  margin:0 auto;  }
 }
-.newProduct_nm { @include font("noto",500,45,""); margin:0 auto; height: 60px; letter-spacing: 0.3px; }
+.newProduct_nm { @include font("noto",500,45,""); text-align:center; height: 60px; letter-spacing: 0.3px; }
 .product_dl { @include div(100%,auto,"auto",0,0); display:flex; 
     &>dd{
         width:calc(1100px/4); display: flex; flex-direction: row; justify-content: space-around;
