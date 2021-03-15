@@ -129,7 +129,7 @@ em {
   display: flex;
 }
 .product_dl > dd {
-  width: 100%;
+  width: calc(1100px/4);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -141,7 +141,6 @@ em {
   cursor: pointer;
 }
 .product_dl > dd > li {
-  width: 270px;
   text-align: center;
 }
 .product_dl > dd > li > :nth-child(1) {
