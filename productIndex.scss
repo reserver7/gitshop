@@ -4,10 +4,7 @@
 .banner{ @include div(1200px,500px,"auto",0,0); }
 .main , .mainoutline { height:auto; }
 .mainoutline{
-    &>article{ width:1200px;  margin:0 auto; 
-     &>:nth-child(1){ height:500px; }
-     &>:nth-child(2){ height:500px; }
-    }
+    &>article{ width:1200px;  margin:0 auto;  }
 }
 .newProduct_nm { @include font("nanum",700,20,""); margin:0 auto; height: 60px;}
 .product_dl { width:100%; height:auto; margin:0 auto; display:flex; 

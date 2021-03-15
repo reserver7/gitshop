@@ -108,12 +108,6 @@ em {
   width: 1200px;
   margin: 0 auto;
 }
-.mainoutline > article > :nth-child(1) {
-  height: 500px;
-}
-.mainoutline > article > :nth-child(2) {
-  height: 500px;
-}
 
 .newProduct_nm {
   font-family: "Nanum Gothic", sans-serif;
