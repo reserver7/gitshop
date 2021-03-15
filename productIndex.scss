@@ -6,7 +6,7 @@
 .mainoutline{
     &>article{ width:1200px;  margin:0 auto;  }
 }
-.newProduct_nm { @include font("nanum",700,20,""); margin:0 auto; height: 60px;}
+.newProduct_nm { @include font("noto",500,45,""); margin:0 auto; height: 60px; letter-spacing: 0.3px; }
 .product_dl { width:100%; height:auto; margin:0 auto; display:flex; 
     &>dd{
         width:100%; display: flex; flex-direction: row; justify-content: space-around;
