@@ -19,13 +19,13 @@
 .product_box>li:nth-child(1) { height:270px; 
     background-repeat:no-repeat; background-size:cover; }
 .product_dl>dd:nth-child(2)>.product_box>li:nth-child(1) {
-  background-image:url("../product/product1.jpg"); }
+  background-image:url("./product/product1.jpg"); }
 .product_dl>dd:nth-child(3)>.product_box>li:nth-child(1) { height:270px; 
-    background-image:url("../product/product2.jpg"); }  
+    background-image:url("./product/product2.jpg"); }  
 .product_dl>dd:nth-child(4)>.product_box>li:nth-child(1) { height:270px; 
-    background-image:url("../product/product3.jpg"); }
+    background-image:url("./product/product3.jpg"); }
 .product_dl>dd:nth-child(5)>.product_box>li:nth-child(1) { height:270px; 
-    background-image:url("../product/product4.jpg"); }
+    background-image:url("./product/product4.jpg"); }
 .product_box>li:nth-child(2) {height:80px; vertical-align:middle; 
   display:table-cell; font-size:20px; }
 .product_box>li:nth-child(3) { height:50px; line-height:50px; 
