@@ -113,6 +113,7 @@ em {
 }
 
 .newProduct_ul li label img {
+  background-image: url("./product/product1.jpg");
   object-fit: cover;
   width: calc(260px/4);
   height: 270px;
