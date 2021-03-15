@@ -25,6 +25,7 @@ body {
   line-height: 1;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   text-size-adjust: none;
 }
 
@@ -73,8 +74,7 @@ legend {
 img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 h1, h2, h3, h4, h5, h6, form, fieldset, img {
@@ -90,4 +90,18 @@ pre {
 
 em {
   font-style: normal;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.banner {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+}
+
+.div {
+  width: 100px;
+  height: 30px;
+  border: 1px solid red;
+}

@@ -1,6 +1,7 @@
-@import "./main.scss";
+@charset "UTF-8";
+@import "main.scss";
+
 .banner{
     @include div(1200px,500px,"auto",0,0);
-    border:1px solid red;
 }
 .div{ width:100px; height:30px; border:1px solid red ; }

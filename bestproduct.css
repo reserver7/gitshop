@@ -26,7 +26,6 @@ body {
   line-height: 1;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none;
   text-size-adjust: none;
 }
 
@@ -37,8 +36,7 @@ ol, ul, dd {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input:focus {
@@ -96,7 +94,7 @@ em {
 }
 
 .best_top {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 500;
   font-size: 45px;
   color: "";
@@ -113,22 +111,13 @@ em {
   margin: 0 auto;
   padding: 0;
   border: "";
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
   margin-top: 10px;
   padding-bottom: 20px;
 }
-
 .best_div > label {
   width: 270px;
   height: 400px;
@@ -139,7 +128,6 @@ em {
   margin-top: 10px;
   cursor: pointer;
 }
-
 .best_div > label > ul {
   width: 100%;
   height: 400px;
@@ -147,28 +135,17 @@ em {
   padding: 0;
   border: "";
 }
-
 .best_div > label > ul > li {
   width: 100%;
   height: auto;
   margin: 0 auto;
   padding: 0;
   border: "";
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
-
 .best_div > label > ul > li:nth-of-type(1) {
   width: 100%;
   height: 270px;
@@ -176,18 +153,16 @@ em {
   padding: 0;
   border: "";
 }
-
 .best_div > label > ul > li:nth-of-type(2) {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: "";
   letter-spacing: 0.3px;
   height: 60px;
 }
-
 .best_div > label > ul > li:nth-of-type(3) {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   font-weight: 700;
   font-size: 25px;
   color: "";
@@ -195,68 +170,58 @@ em {
   height: 50px;
   line-height: 45px;
 }
-
 .best_div > label > ul > li:nth-of-type(4) {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 500;
   font-size: 12px;
   color: "";
   letter-spacing: 0.3px;
   height: 20px;
 }
-
 .best_div > label > ul > li:nth-of-type(4):before {
   content: "최대 2.3% 적립";
   color: blue;
   padding-right: 5px;
 }
-
 .best_div > label:nth-of-type(1) > ul > li:nth-of-type(1) {
   background-image: url("./product/bestproduct1.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 .best_div > label:nth-of-type(2) > ul > li:nth-of-type(1) {
   background-image: url("./product/bestproduct2.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 .best_div > label:nth-of-type(3) > ul > li:nth-of-type(1) {
   background-image: url("./product/bestproduct3.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 .best_div > label:nth-of-type(4) > ul > li:nth-of-type(1) {
   background-image: url("./product/bestproduct4.png");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 .best_div > label:nth-of-type(1) > ul > li:nth-of-type(3):before {
   content: "쿠팡특가";
   color: red;
   padding-right: 5px;
 }
-
 .best_div > label:nth-of-type(2) > ul > li:nth-of-type(3):before {
   content: "31%";
   color: red;
   padding-right: 5px;
 }
-
 .best_div > label:nth-of-type(3) > ul > li:nth-of-type(3):before {
   content: "쿠팡특가";
   color: red;
   padding-right: 5px;
 }
-
 .best_div > label:nth-of-type(4) > ul > li:nth-of-type(3):before {
   content: "15%";
   color: red;
@@ -279,7 +244,6 @@ em {
   padding: 0;
   border: "";
 }
-
 .footer_div > ol {
   width: 1200px;
   height: auto;
@@ -288,18 +252,16 @@ em {
   border: "";
   text-align: center;
 }
-
 .footer_div > ol > li {
   width: 1200px;
   height: 50px;
   margin: 0 auto;
   padding: 0;
   border: "";
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
   letter-spacing: 0.3px;
   line-height: 50px;
-}
-/*# sourceMappingURL=bestproduct.css.map */
+}/*# sourceMappingURL=bestproduct.css.map */
