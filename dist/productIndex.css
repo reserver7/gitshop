@@ -127,7 +127,6 @@ em {
   height: 50px;
   text-align: center;
   line-height: 50px;
-  font-family: "Libre Barcode 128 Text", cursive;
   font-size: 50px;
 }
 
@@ -144,7 +143,6 @@ em {
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  font-family: "Nanum Gothic", sans-serif;
 }
 
 .product_box > li {
