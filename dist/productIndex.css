@@ -131,8 +131,9 @@ em {
 .product_dl > dd {
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
 }
 .product_dl > dd > .product_box {
   height: 400px;
@@ -153,25 +154,32 @@ em {
   height: 80px;
   vertical-align: middle;
   display: table-cell;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 500;
   font-size: 20px;
+  color: "";
+  letter-spacing: 0.3px;
 }
 .product_dl > dd > li > :nth-child(3) {
   height: 50px;
   line-height: 50px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 500;
   font-size: 20px;
-  font-weight: bolder;
+  color: "";
+  letter-spacing: 0.3px;
   margin-top: -10px;
 }
-.product_dl > dd > :nth-child(3) > .product_box > li:nth-child(1) {
+.product_dl > dd > :nth-child(1) > .product_box > li:nth-child(1) {
   background-image: url("./product/product1.jpg");
 }
-.product_dl > dd > :nth-child(4) > .product_box > li:nth-child(1) {
+.product_dl > dd > :nth-child(2) > .product_box > li:nth-child(1) {
   background-image: url("./product/product2.jpg");
 }
-.product_dl > dd > :nth-child(5) > .product_box > li:nth-child(1) {
+.product_dl > dd > :nth-child(3) > .product_box > li:nth-child(1) {
   background-image: url("./product/product3.jpg");
 }
-.product_dl > dd > :nth-child(6) > .product_box > li:nth-child(1) {
+.product_dl > dd > :nth-child(4) > .product_box > li:nth-child(1) {
   background-image: url("./product/product4.jpg");
 }
 
