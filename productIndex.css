@@ -109,6 +109,16 @@ em {
   margin: 0 auto;
 }
 
+p {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: "";
+  letter-spacing: 0.3px;
+  margin: 0 auto;
+  height: 60px;
+}
+
 .mainoutline > article:nth-child(1) {
   height: 500px;
 }
