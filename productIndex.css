@@ -120,6 +120,7 @@ em {
 .product_dl {
   width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 .product_dl > dt {
