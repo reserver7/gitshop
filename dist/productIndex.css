@@ -111,3 +111,9 @@ em {
   margin: 0 auto;
   padding: 0;
 }
+
+.newProduct_ul li label img {
+  object-fit: cover;
+  width: calc(260px/4);
+  height: 270px;
+}
